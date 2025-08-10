@@ -1,0 +1,22 @@
+Algorithm: Differential Evolution
+Objective Function: Griewank
+Dimension: 2
+Population Size: 128
+Max Evaluations: 2000
+
+Generation 0: Best Solution = [60.21792802 24.20306753], Best Fitness = 1.9114209157963336, Evaluations = 128
+Generation 1: Best Solution = [10.36041701 20.8797799 ], Best Fitness = 0.7876914363541525, Evaluations = 256
+Generation 2: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.701170587698188, Evaluations = 384
+Generation 3: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.701170587698188, Evaluations = 512
+Generation 4: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.701170587698188, Evaluations = 640
+Generation 5: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.701170587698188, Evaluations = 768
+Generation 6: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.6187528516389551, Evaluations = 896
+Generation 7: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.43469189261775165, Evaluations = 1024
+Generation 8: Best Solution = [ 41.24534445 -21.62690352], Best Fitness = 0.43469189261775165, Evaluations = 1152
+Generation 9: Best Solution = [ 22.39876569 -22.25040428], Best Fitness = 0.3314255080590387, Evaluations = 1280
+Generation 10: Best Solution = [ 22.39876569 -22.25040428], Best Fitness = 0.3314255080590387, Evaluations = 1408
+Generation 11: Best Solution = [ 22.39876569 -22.25040428], Best Fitness = 0.20925193851342982, Evaluations = 1536
+Generation 12: Best Solution = [ 22.39876569 -22.25040428], Best Fitness = 0.20925193851342982, Evaluations = 1664
+Generation 13: Best Solution = [12.76963659  8.28538477], Best Fitness = 0.16545681011516256, Evaluations = 1792
+Generation 14: Best Solution = [12.76963659  8.28538477], Best Fitness = 0.16545681011516256, Evaluations = 1920
+Generation 15: Best Solution = [12.76963659  8.28538477], Best Fitness = 0.06480349708925548, Evaluations = 2048

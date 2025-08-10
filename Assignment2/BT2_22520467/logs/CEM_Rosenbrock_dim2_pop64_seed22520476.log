@@ -1,0 +1,38 @@
+Algorithm: Cross-Entropy Method
+Objective Function: Rosenbrock
+Dimension: 2
+Population Size: 64
+Max Evaluations: 2000
+
+Generation 1: Best Solution = [-0.03812985  0.02798224], Best Fitness = 1.1480889451192247, Evaluations = 64
+Generation 2: Best Solution = [ 0.2609114  -0.01385017], Best Fitness = 1.2174213848339654, Evaluations = 128
+Generation 3: Best Solution = [0.66759894 0.48215901], Best Fitness = 0.24350137192021312, Evaluations = 192
+Generation 4: Best Solution = [ 0.10163545 -0.02675409], Best Fitness = 0.9445801193674782, Evaluations = 256
+Generation 5: Best Solution = [1.13187873 1.26000531], Best Fitness = 0.06209950665941891, Evaluations = 320
+Generation 6: Best Solution = [ 0.11638291 -0.02757364], Best Fitness = 0.9498532377051246, Evaluations = 384
+Generation 7: Best Solution = [0.54356317 0.22339701], Best Fitness = 0.7276552783052701, Evaluations = 448
+Generation 8: Best Solution = [0.53801723 0.29922808], Best Fitness = 0.22296464626008314, Evaluations = 512
+Generation 9: Best Solution = [0.61401271 0.34864152], Best Fitness = 0.2294723737565604, Evaluations = 576
+Generation 10: Best Solution = [0.56325575 0.28892202], Best Fitness = 0.27103288063808484, Evaluations = 640
+Generation 11: Best Solution = [0.56279892 0.29812259], Best Fitness = 0.22581535696240088, Evaluations = 704
+Generation 12: Best Solution = [0.59248409 0.34407647], Best Fitness = 0.17091466204681427, Evaluations = 768
+Generation 13: Best Solution = [0.58243587 0.3438608 ], Best Fitness = 0.1765028162523391, Evaluations = 832
+Generation 14: Best Solution = [0.59059524 0.34619256], Best Fitness = 0.16829355933004927, Evaluations = 896
+Generation 15: Best Solution = [0.59971028 0.36314562], Best Fitness = 0.16145210546120375, Evaluations = 960
+Generation 16: Best Solution = [0.6034496  0.36281356], Best Fitness = 0.15743120809637778, Evaluations = 1024
+Generation 17: Best Solution = [0.60831328 0.37002647], Best Fitness = 0.1534185196776821, Evaluations = 1088
+Generation 18: Best Solution = [0.61761826 0.38172497], Best Fitness = 0.14622322775319785, Evaluations = 1152
+Generation 19: Best Solution = [0.61661884 0.37963769], Best Fitness = 0.1470148819059338, Evaluations = 1216
+Generation 20: Best Solution = [0.61882691 0.38179859], Best Fitness = 0.14542475228567736, Evaluations = 1280
+Generation 21: Best Solution = [0.6202768  0.38357582], Best Fitness = 0.1443260130662158, Evaluations = 1344
+Generation 22: Best Solution = [0.62207786 0.38484937], Best Fitness = 0.14327946831890873, Evaluations = 1408
+Generation 23: Best Solution = [0.62511409 0.39410548], Best Fitness = 0.14165357620057278, Evaluations = 1472
+Generation 24: Best Solution = [0.6292111  0.39372533], Best Fitness = 0.1379602064098567, Evaluations = 1536
+Generation 25: Best Solution = [0.6339575  0.39901566], Best Fitness = 0.13482027311879613, Evaluations = 1600
+Generation 26: Best Solution = [0.63800359 0.4056298 ], Best Fitness = 0.13124269457623233, Evaluations = 1664
+Generation 27: Best Solution = [0.64175443 0.40696997], Best Fitness = 0.13072013241967273, Evaluations = 1728
+Generation 28: Best Solution = [0.64288591 0.40912225], Best Fitness = 0.1292777500464475, Evaluations = 1792
+Generation 29: Best Solution = [0.64296333 0.40953208], Best Fitness = 0.12897269443305312, Evaluations = 1856
+Generation 30: Best Solution = [0.64484242 0.41587932], Best Fitness = 0.1261372363433414, Evaluations = 1920
+Generation 31: Best Solution = [0.65207206 0.42209872], Best Fitness = 0.12201439079152245, Evaluations = 1984
+Generation 32: Best Solution = [0.65315811 0.42532873], Best Fitness = 0.12046487737650038, Evaluations = 2048

@@ -1,0 +1,22 @@
+Algorithm: Cross-Entropy Method
+Objective Function: Griewank
+Dimension: 2
+Population Size: 128
+Max Evaluations: 2000
+
+Generation 1: Best Solution = [-16.26636409  55.31056516], Best Fitness = 1.9656064348948687, Evaluations = 128
+Generation 2: Best Solution = [-53.4349223    3.55153192], Best Fitness = 0.9094269794834406, Evaluations = 256
+Generation 3: Best Solution = [  3.54213412 -22.19422879], Best Fitness = 0.20552642922447095, Evaluations = 384
+Generation 4: Best Solution = [  0.18805319 -17.7204124 ], Best Fitness = 0.0967837573745629, Evaluations = 512
+Generation 5: Best Solution = [-15.82557852   4.10036424], Best Fitness = 0.10270921461982696, Evaluations = 640
+Generation 6: Best Solution = [-3.33898296 -4.20344243], Best Fitness = 0.04064380501518439, Evaluations = 768
+Generation 7: Best Solution = [ 3.31584752 -4.89951202], Best Fitness = 0.07478765282701272, Evaluations = 896
+Generation 8: Best Solution = [ -3.13063341 -13.24835753], Best Fitness = 0.04800115543517225, Evaluations = 1024
+Generation 9: Best Solution = [ 3.17673869 -4.24089622], Best Fitness = 0.01781281938008561, Evaluations = 1152
+Generation 10: Best Solution = [ 3.13829554 -4.31732413], Best Fitness = 0.011066126033260404, Evaluations = 1280
+Generation 11: Best Solution = [-3.34614835 -4.76111586], Best Fitness = 0.05400067004956477, Evaluations = 1408
+Generation 12: Best Solution = [3.18602969 4.17248664], Best Fitness = 0.02608220490654467, Evaluations = 1536
+Generation 13: Best Solution = [-0.16643912  0.39200357], Best Fitness = 0.051508251367682334, Evaluations = 1664
+Generation 14: Best Solution = [3.26388965 3.85450199], Best Fitness = 0.0985161384359654, Evaluations = 1792
+Generation 15: Best Solution = [ 0.10419029 -0.04348059], Best Fitness = 0.00589612654733529, Evaluations = 1920
+Generation 16: Best Solution = [-6.53596832  0.01192544], Best Fitness = 0.0424940376085563, Evaluations = 2048

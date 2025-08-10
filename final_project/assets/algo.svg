@@ -1,0 +1,91 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="bold">
+    Algorithm 1: CamoPatch Main Algorithm
+  </text>
+  
+  <!-- Input Section -->
+  <text x="50" y="60" font-family="Times New Roman" font-size="14" font-weight="bold">Input:</text>
+  <text x="70" y="80" font-family="Times New Roman" font-size="12">
+    Margin loss ℒ, input x ∈ 𝒳 ⊆ [0,1]^(h×w×3), query budget K, sparsity ε,
+  </text>
+  <text x="70" y="95" font-family="Times New Roman" font-size="12">
+    initial temperature t, number of circles N, location schedule li, evolutionary step-size σ
+  </text>
+  
+  <!-- Algorithm Steps -->
+  <g font-family="Times New Roman" font-size="12">
+    <!-- Step 1 -->
+    <text x="50" y="125" font-weight="bold">1</text>
+    <text x="75" y="125">s ← √ε</text>
+    <text x="150" y="125" fill="#666" font-style="italic">// Patch Side Length</text>
+    
+    <!-- Step 2 -->
+    <text x="50" y="145" font-weight="bold">2</text>
+    <text x="75" y="145">δ ← InitialPatch(N, s)</text>
+    
+    <!-- Step 3 -->
+    <text x="50" y="165" font-weight="bold">3</text>
+    <text x="75" y="165">i ~ U({0, ⋯, w − s})</text>
+    
+    <!-- Step 4 -->
+    <text x="50" y="185" font-weight="bold">4</text>
+    <text x="75" y="185">j ~ U({0, ⋯, h − s})</text>
+    
+    <!-- Step 5 -->
+    <text x="50" y="205" font-weight="bold">5</text>
+    <text x="75" y="205">x* ← x</text>
+    
+    <!-- Step 6 -->
+    <text x="50" y="225" font-weight="bold">6</text>
+    <text x="75" y="225">x*_{i:i+s,j:j+s} ← δ</text>
+    <text x="250" y="225" fill="#666" font-style="italic">// Apply patch</text>
+    
+    <!-- Step 7 -->
+    <text x="50" y="245" font-weight="bold">7</text>
+    <text x="75" y="245">L ← ℒ(x*)</text>
+    
+    <!-- Step 8 -->
+    <text x="50" y="265" font-weight="bold">8</text>
+    <text x="75" y="265">norm ← ||x_{i:i+s,j:j+s} − δ||_2</text>
+    
+    <!-- Step 9 -->
+    <text x="50" y="285" font-weight="bold">9</text>
+    <text x="75" y="285" font-weight="bold">for</text>
+    <text x="105" y="285">k ← 1; k &lt; K; k ← k + 1</text>
+    <text x="275" y="285" font-weight="bold">do</text>
+    
+    <!-- Step 10 -->
+    <text x="70" y="305" font-weight="bold">10</text>
+    <text x="95" y="305" font-weight="bold">if</text>
+    <text x="115" y="305">mod(k, li + 1) = 0</text>
+    <text x="250" y="305" font-weight="bold">then</text>
+    
+    <!-- Step 11 - Highlighted -->
+    <rect x="85" y="315" width="400" height="20" fill="#ffeeee" stroke="#ff6666" stroke-width="1" rx="3"/>
+    <text x="90" y="325" font-weight="bold">11</text>
+    <text x="115" y="325">i, j, L, norm ← LocationUpdate()</text>
+    <text x="320" y="325" fill="#ff6666" font-style="italic">// see Algorithm 4</text>
+    
+    <!-- Step 12 -->
+    <text x="70" y="345" font-weight="bold">12</text>
+    <text x="95" y="345" font-weight="bold">else</text>
+    
+    <!-- Step 13 - Highlighted -->
+    <rect x="85" y="355" width="400" height="20" fill="#ffeeee" stroke="#ff6666" stroke-width="1" rx="3"/>
+    <text x="90" y="365" font-weight="bold">13</text>
+    <text x="115" y="365">δ, L, norm ← PatchUpdate()</text>
+    <text x="300" y="365" fill="#ff6666" font-style="italic">//see Algorithm 3</text>
+    
+    <!-- Step 14 -->
+    <text x="50" y="395" font-weight="bold">14</text>
+    <text x="75" y="395" font-weight="bold">return</text>
+    <text x="125" y="395">x*</text>
+  </g>
+  
+  <!-- Border lines for structure -->
+  <line x1="50" y1="110" x2="750" y2="110" stroke="#ccc" stroke-width="1"/>
+</svg>

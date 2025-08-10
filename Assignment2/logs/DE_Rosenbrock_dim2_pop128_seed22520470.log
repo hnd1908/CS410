@@ -1,0 +1,22 @@
+Algorithm: Differential Evolution
+Objective Function: Rosenbrock
+Dimension: 2
+Population Size: 128
+Max Evaluations: 2000
+
+Generation 0: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 128
+Generation 1: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 256
+Generation 2: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 384
+Generation 3: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 512
+Generation 4: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 640
+Generation 5: Best Solution = [2.12882479 4.3966062 ], Best Fitness = 3.104550552814717, Evaluations = 768
+Generation 6: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 896
+Generation 7: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 1024
+Generation 8: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 1152
+Generation 9: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 1280
+Generation 10: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 1408
+Generation 11: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.352377779518241, Evaluations = 1536
+Generation 12: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.24634086142703662, Evaluations = 1664
+Generation 13: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.24634086142703662, Evaluations = 1792
+Generation 14: Best Solution = [1.55399349 2.39357232], Best Fitness = 0.24634086142703662, Evaluations = 1920
+Generation 15: Best Solution = [0.83212353 0.73456516], Best Fitness = 0.2057233555519214, Evaluations = 2048

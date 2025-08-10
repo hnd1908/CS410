@@ -1,0 +1,22 @@
+Algorithm: Differential Evolution
+Objective Function: Sphere
+Dimension: 2
+Population Size: 128
+Max Evaluations: 2000
+
+Generation 0: Best Solution = [-0.43499743  0.16509978], Best Fitness = 0.2164807043895154, Evaluations = 128
+Generation 1: Best Solution = [-0.04669723 -0.36525181], Best Fitness = 0.13558951307154105, Evaluations = 256
+Generation 2: Best Solution = [0.03416349 0.13556004], Best Fitness = 0.019543668008376276, Evaluations = 384
+Generation 3: Best Solution = [0.03416349 0.13556004], Best Fitness = 0.019543668008376276, Evaluations = 512
+Generation 4: Best Solution = [0.02522185 0.07577321], Best Fitness = 0.006377721453954276, Evaluations = 640
+Generation 5: Best Solution = [0.02522185 0.07577321], Best Fitness = 0.006377721453954276, Evaluations = 768
+Generation 6: Best Solution = [0.02522185 0.07577321], Best Fitness = 0.006377721453954276, Evaluations = 896
+Generation 7: Best Solution = [0.06973477 0.02152601], Best Fitness = 0.00532630657242893, Evaluations = 1024
+Generation 8: Best Solution = [ 0.00137906 -0.02086982], Best Fitness = 0.00043745111558807074, Evaluations = 1152
+Generation 9: Best Solution = [ 0.00137906 -0.02086982], Best Fitness = 0.00043745111558807074, Evaluations = 1280
+Generation 10: Best Solution = [ 0.00137906 -0.02086982], Best Fitness = 0.00043745111558807074, Evaluations = 1408
+Generation 11: Best Solution = [ 0.00137906 -0.02086982], Best Fitness = 0.00043745111558807074, Evaluations = 1536
+Generation 12: Best Solution = [ 0.00137906 -0.02086982], Best Fitness = 0.00043745111558807074, Evaluations = 1664
+Generation 13: Best Solution = [ 0.01480159 -0.00086171], Best Fitness = 0.00021982949830471398, Evaluations = 1792
+Generation 14: Best Solution = [ 0.01480159 -0.00086171], Best Fitness = 0.00021982949830471398, Evaluations = 1920
+Generation 15: Best Solution = [-0.01247655 -0.00741365], Best Fitness = 0.00021062651029636677, Evaluations = 2048

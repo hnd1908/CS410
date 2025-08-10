@@ -1,0 +1,256 @@
+Algorithm: Cross-Entropy Method
+Objective Function: Rastrigin
+Dimension: 2
+Population Size: 8
+Max Evaluations: 2000
+
+Generation 1: Best Solution = [-0.99254722 -1.25238683], Best Fitness = 12.714547961646687, Evaluations = 8
+Generation 2: Best Solution = [-1.87367732 -0.92210738], Best Fitness = 8.522803598194335, Evaluations = 16
+Generation 3: Best Solution = [-0.13142837  1.84470245], Best Fitness = 11.035066111807676, Evaluations = 24
+Generation 4: Best Solution = [-0.14328189 -0.98814166], Best Fitness = 4.810687476381254, Evaluations = 32
+Generation 5: Best Solution = [-1.90102208 -1.1084711 ], Best Fitness = 8.948834020771006, Evaluations = 40
+Generation 6: Best Solution = [-1.00972986 -1.90828011], Best Fitness = 6.294884718317455, Evaluations = 48
+Generation 7: Best Solution = [-0.93941534 -1.85547502], Best Fitness = 8.888483437174454, Evaluations = 56
+Generation 8: Best Solution = [-0.99388565 -1.87965855], Best Fitness = 7.253320506006606, Evaluations = 64
+Generation 9: Best Solution = [-0.9894929  -1.88347133], Best Fitness = 7.111097130817752, Evaluations = 72
+Generation 10: Best Solution = [-0.98817387 -1.88678703], Best Fitness = 6.989156802337945, Evaluations = 80
+Generation 11: Best Solution = [-0.98817307 -1.895767  ], Best Fitness = 6.667020672455383, Evaluations = 88
+Generation 12: Best Solution = [-0.98609299 -1.8953064 ], Best Fitness = 6.68938301475637, Evaluations = 96
+Generation 13: Best Solution = [-0.98635211 -1.89911026], Best Fitness = 6.5590707286099725, Evaluations = 104
+Generation 14: Best Solution = [-0.99120123 -1.90323595], Best Fitness = 6.4120662071719305, Evaluations = 112
+Generation 15: Best Solution = [-0.9890024  -1.90684083], Best Fitness = 6.302769081769155, Evaluations = 120
+Generation 16: Best Solution = [-0.99428573 -1.91261372], Best Fitness = 6.123007297300511, Evaluations = 128
+Generation 17: Best Solution = [-0.99590187 -1.91542016], Best Fitness = 6.043141085401363, Evaluations = 136
+Generation 18: Best Solution = [-0.99680284 -1.91700939], Best Fitness = 5.999557678500127, Evaluations = 144
+Generation 19: Best Solution = [-1.00587539 -1.92169096], Best Fitness = 5.897738861187955, Evaluations = 152
+Generation 20: Best Solution = [-1.01454378 -1.92696915], Best Fitness = 5.818680883782417, Evaluations = 160
+Generation 21: Best Solution = [-1.01945471 -1.93046832], Best Fitness = 5.779852847955876, Evaluations = 168
+Generation 22: Best Solution = [-1.00407776 -1.93205368], Best Fitness = 5.641828741122634, Evaluations = 176
+Generation 23: Best Solution = [-1.00452705 -1.93419616], Best Fitness = 5.596863965027328, Evaluations = 184
+Generation 24: Best Solution = [-1.00961465 -1.93779783], Best Fitness = 5.546683426268638, Evaluations = 192
+Generation 25: Best Solution = [-0.98966248 -1.9378459 ], Best Fitness = 5.50867470626725, Evaluations = 200
+Generation 26: Best Solution = [-1.00397493 -1.94358535], Best Fitness = 5.410280569157372, Evaluations = 208
+Generation 27: Best Solution = [-1.0062306  -1.94983947], Best Fitness = 5.314592392202497, Evaluations = 216
+Generation 28: Best Solution = [-1.00903718 -1.95307191], Best Fitness = 5.280328192189129, Evaluations = 224
+Generation 29: Best Solution = [-0.98974354 -1.95679523], Best Fitness = 5.195602552629339, Evaluations = 232
+Generation 30: Best Solution = [-0.99306729 -1.95793637], Best Fitness = 5.176410285767307, Evaluations = 240
+Generation 31: Best Solution = [-0.99210454 -1.96056956], Best Fitness = 5.145737658857101, Evaluations = 248
+Generation 32: Best Solution = [-0.99739592 -1.96373729], Best Fitness = 5.110847797680108, Evaluations = 256
+Generation 33: Best Solution = [-0.99345263 -1.96807027], Best Fitness = 5.069277970890264, Evaluations = 264
+Generation 34: Best Solution = [-0.99387495 -1.97231405], Best Fitness = 5.0361368341788815, Evaluations = 272
+Generation 35: Best Solution = [-0.99822028 -1.97395859], Best Fitness = 5.027145520905863, Evaluations = 280
+Generation 36: Best Solution = [-0.99348482 -1.97847185], Best Fitness = 5.001084759467101, Evaluations = 288
+Generation 37: Best Solution = [-0.99655705 -1.97958413], Best Fitness = 4.996380858280794, Evaluations = 296
+Generation 38: Best Solution = [-0.99650593 -1.98149064], Best Fitness = 4.989288624232881, Evaluations = 304
+Generation 39: Best Solution = [-0.99970971 -1.98513727], Best Fitness = 4.983778492790371, Evaluations = 312
+Generation 40: Best Solution = [-0.99934699 -1.98874524], Best Fitness = 4.978879367063795, Evaluations = 320
+Generation 41: Best Solution = [-0.99577755 -1.98970662], Best Fitness = 4.974931603198348, Evaluations = 328
+Generation 42: Best Solution = [-0.99486101 -1.99017059], Best Fitness = 4.974805353604758, Evaluations = 336
+Generation 43: Best Solution = [-0.99735456 -1.99018483], Best Fitness = 4.975943405818871, Evaluations = 344
+Generation 44: Best Solution = [-0.99753216 -1.99298266], Best Fitness = 4.9779710540342155, Evaluations = 352
+Generation 45: Best Solution = [-0.99692435 -1.99199904], Best Fitness = 4.976418999066231, Evaluations = 360
+Generation 46: Best Solution = [-0.99459748 -1.98989951], Best Fitness = 4.974816142847777, Evaluations = 368
+Generation 47: Best Solution = [-0.99496233 -1.99179091], Best Fitness = 4.975489225889259, Evaluations = 376
+Generation 48: Best Solution = [-0.99783615 -1.99029654], Best Fitness = 4.976461643677631, Evaluations = 384
+Generation 49: Best Solution = [-0.99757607 -1.98906959], Best Fitness = 4.976289519722165, Evaluations = 392
+Generation 50: Best Solution = [-0.99432059 -1.98973308], Best Fitness = 4.974877323936749, Evaluations = 400
+Generation 51: Best Solution = [-0.99278446 -1.99231073], Best Fitness = 4.97686681118951, Evaluations = 408
+Generation 52: Best Solution = [-0.99699513 -1.98846052], Best Fitness = 4.976029916965734, Evaluations = 416
+Generation 53: Best Solution = [-0.99728983 -1.99100744], Best Fitness = 4.976105530903004, Evaluations = 424
+Generation 54: Best Solution = [-0.9962251  -1.99093095], Best Fitness = 4.975313824200372, Evaluations = 432
+Generation 55: Best Solution = [-0.99559844 -1.98762056], Best Fitness = 4.9759109140306705, Evaluations = 440
+Generation 56: Best Solution = [-0.99295105 -1.99102154], Best Fitness = 4.975833013053261, Evaluations = 448
+Generation 57: Best Solution = [-0.99307882 -1.98926464], Best Fitness = 4.975573889986412, Evaluations = 456
+Generation 58: Best Solution = [-0.99497711 -1.99404896], Best Fitness = 4.978180184961522, Evaluations = 464
+Generation 59: Best Solution = [-0.99503327 -1.98939355], Best Fitness = 4.974844616484635, Evaluations = 472
+Generation 60: Best Solution = [-0.99445769 -1.99109364], Best Fitness = 4.975116394570179, Evaluations = 480
+Generation 61: Best Solution = [-0.99566538 -1.99087662], Best Fitness = 4.975073463435816, Evaluations = 488
+Generation 62: Best Solution = [-0.99574995 -1.98879135], Best Fitness = 4.975163138799056, Evaluations = 496
+Generation 63: Best Solution = [-0.99468609 -1.9910285 ], Best Fitness = 4.975051723759867, Evaluations = 504
+Generation 64: Best Solution = [-0.99722353 -1.98840525], Best Fitness = 4.976257128699704, Evaluations = 512
+Generation 65: Best Solution = [-0.99601416 -1.99222779], Best Fitness = 4.976073105586925, Evaluations = 520
+Generation 66: Best Solution = [-0.99628175 -1.99243707], Best Fitness = 4.976399989397434, Evaluations = 528
+Generation 67: Best Solution = [-0.99445481 -1.98755144], Best Fitness = 4.975943717321144, Evaluations = 536
+Generation 68: Best Solution = [-0.99566244 -1.99043427], Best Fitness = 4.974942437206828, Evaluations = 544
+Generation 69: Best Solution = [-0.99529399 -1.99012122], Best Fitness = 4.974821196190856, Evaluations = 552
+Generation 70: Best Solution = [-0.99346446 -1.9890512 ], Best Fitness = 4.975379680466169, Evaluations = 560
+Generation 71: Best Solution = [-0.99570953 -1.99007107], Best Fitness = 4.9749070549055645, Evaluations = 568
+Generation 72: Best Solution = [-0.99540218 -1.99070417], Best Fitness = 4.974953448263371, Evaluations = 576
+Generation 73: Best Solution = [-0.99649207 -1.98900022], Best Fitness = 4.9754212264627835, Evaluations = 584
+Generation 74: Best Solution = [-0.99465974 -1.98811009], Best Fitness = 4.975450836731593, Evaluations = 592
+Generation 75: Best Solution = [-0.99647457 -1.98986555], Best Fitness = 4.975246408309717, Evaluations = 600
+Generation 76: Best Solution = [-0.99319563 -1.98920134], Best Fitness = 4.975506557549538, Evaluations = 608
+Generation 77: Best Solution = [-0.99535996 -1.99275442], Best Fitness = 4.976422153829304, Evaluations = 616
+Generation 78: Best Solution = [-0.9966341  -1.98842709], Best Fitness = 4.9757835663453935, Evaluations = 624
+Generation 79: Best Solution = [-0.99618237 -1.98858305], Best Fitness = 4.97543696089639, Evaluations = 632
+Generation 80: Best Solution = [-0.99668846 -1.98814386], Best Fitness = 4.976002665563097, Evaluations = 640
+Generation 81: Best Solution = [-0.99584453 -1.99145848], Best Fitness = 4.975419356228652, Evaluations = 648
+Generation 82: Best Solution = [-0.99408439 -1.99017098], Best Fitness = 4.9749550527649085, Evaluations = 656
+Generation 83: Best Solution = [-0.99625022 -1.98977702], Best Fitness = 4.975124685236244, Evaluations = 664
+Generation 84: Best Solution = [-0.99518384 -1.99151482], Best Fitness = 4.975308919454868, Evaluations = 672
+Generation 85: Best Solution = [-0.99713809 -1.99132455], Best Fitness = 4.976127262078943, Evaluations = 680
+Generation 86: Best Solution = [-0.99515679 -1.99022444], Best Fitness = 4.974817333790039, Evaluations = 688
+Generation 87: Best Solution = [-0.99463988 -1.99070642], Best Fitness = 4.9749352916471175, Evaluations = 696
+Generation 88: Best Solution = [-0.99392347 -1.99086216], Best Fitness = 4.975181403045035, Evaluations = 704
+Generation 89: Best Solution = [-0.99344426 -1.98956967], Best Fitness = 4.975268187824586, Evaluations = 712
+Generation 90: Best Solution = [-0.99391525 -1.99104127], Best Fitness = 4.9752585305107555, Evaluations = 720
+Generation 91: Best Solution = [-0.99485217 -1.99006632], Best Fitness = 4.974797196177729, Evaluations = 728
+Generation 92: Best Solution = [-0.99650705 -1.98982248], Best Fitness = 4.975267309198147, Evaluations = 736
+Generation 93: Best Solution = [-0.99462142 -1.99035647], Best Fitness = 4.974851873486646, Evaluations = 744
+Generation 94: Best Solution = [-0.99401751 -1.9916572 ], Best Fitness = 4.9755688785644026, Evaluations = 752
+Generation 95: Best Solution = [-0.99371416 -1.98758496], Best Fitness = 4.97616935498891, Evaluations = 760
+Generation 96: Best Solution = [-0.99623712 -1.9902064 ], Best Fitness = 4.975131521392038, Evaluations = 768
+Generation 97: Best Solution = [-0.99342674 -1.99263283], Best Fitness = 4.976721521889234, Evaluations = 776
+Generation 98: Best Solution = [-0.99551938 -1.99116611], Best Fitness = 4.975163938339669, Evaluations = 784
+Generation 99: Best Solution = [-0.99470102 -1.98727103], Best Fitness = 4.976184100669444, Evaluations = 792
+Generation 100: Best Solution = [-0.99706656 -1.98844602], Best Fitness = 4.976097005801673, Evaluations = 800
+Generation 101: Best Solution = [-0.99231004 -1.99156553], Best Fitness = 4.976722321193435, Evaluations = 808
+Generation 102: Best Solution = [-0.99495895 -1.99033855], Best Fitness = 4.974826235040519, Evaluations = 816
+Generation 103: Best Solution = [-0.99719866 -1.99035161], Best Fitness = 4.975823583451925, Evaluations = 824
+Generation 104: Best Solution = [-0.99427159 -1.98971874], Best Fitness = 4.974891257138992, Evaluations = 832
+Generation 105: Best Solution = [-0.99577052 -1.98834546], Best Fitness = 4.975406888521427, Evaluations = 840
+Generation 106: Best Solution = [-0.99439549 -1.98834316], Best Fitness = 4.975340486554513, Evaluations = 848
+Generation 107: Best Solution = [-0.99509807 -1.99074416], Best Fitness = 4.974931150210232, Evaluations = 856
+Generation 108: Best Solution = [-0.99525326 -1.98993099], Best Fitness = 4.974807529928871, Evaluations = 864
+Generation 109: Best Solution = [-0.99516927 -1.98889758], Best Fitness = 4.975002857882972, Evaluations = 872
+Generation 110: Best Solution = [-0.99501317 -1.99198616], Best Fitness = 4.97564266958728, Evaluations = 880
+Generation 111: Best Solution = [-0.99633902 -1.98991099], Best Fitness = 4.975168117919232, Evaluations = 888
+Generation 112: Best Solution = [-0.99389577 -1.99019057], Best Fitness = 4.975029580190336, Evaluations = 896
+Generation 113: Best Solution = [-0.99451817 -1.98912261], Best Fitness = 4.974952155330103, Evaluations = 904
+Generation 114: Best Solution = [-0.99449981 -1.99043049], Best Fitness = 4.974885175244747, Evaluations = 912
+Generation 115: Best Solution = [-0.99389783 -1.99088285], Best Fitness = 4.975199928262651, Evaluations = 920
+Generation 116: Best Solution = [-0.99433029 -1.98790741], Best Fitness = 4.975664121600072, Evaluations = 928
+Generation 117: Best Solution = [-0.99639631 -1.98848163], Best Fitness = 4.975605278778335, Evaluations = 936
+Generation 118: Best Solution = [-0.99607397 -1.98792086], Best Fitness = 4.975821884029859, Evaluations = 944
+Generation 119: Best Solution = [-0.99458577 -1.98976456], Best Fitness = 4.97482213388442, Evaluations = 952
+Generation 120: Best Solution = [-0.99517822 -1.99000342], Best Fitness = 4.974801455489711, Evaluations = 960
+Generation 121: Best Solution = [-0.99580634 -1.98916788], Best Fitness = 4.975042439678452, Evaluations = 968
+Generation 122: Best Solution = [-0.99517638 -1.99111905], Best Fitness = 4.975088055869023, Evaluations = 976
+Generation 123: Best Solution = [-0.99540462 -1.99030037], Best Fitness = 4.9748595200137995, Evaluations = 984
+Generation 124: Best Solution = [-0.99640289 -1.99059013], Best Fitness = 4.975294889876867, Evaluations = 992
+Generation 125: Best Solution = [-0.99618601 -1.98766735], Best Fitness = 4.976086477578411, Evaluations = 1000
+Generation 126: Best Solution = [-0.99468826 -1.99155352], Best Fitness = 4.975338218985737, Evaluations = 1008
+Generation 127: Best Solution = [-0.99263764 -1.99064612], Best Fitness = 4.975964921458541, Evaluations = 1016
+Generation 128: Best Solution = [-0.99492579 -1.99106546], Best Fitness = 4.97505381928428, Evaluations = 1024
+Generation 129: Best Solution = [-0.9953039  -1.99018417], Best Fitness = 4.974828528113759, Evaluations = 1032
+Generation 130: Best Solution = [-0.99470244 -1.98847157], Best Fitness = 4.9752141219811215, Evaluations = 1040
+Generation 131: Best Solution = [-0.99562895 -1.99000061], Best Fitness = 4.974880895484247, Evaluations = 1048
+Generation 132: Best Solution = [-0.99362626 -1.98998292], Best Fitness = 4.975143220178829, Evaluations = 1056
+Generation 133: Best Solution = [-0.99455665 -1.98980237], Best Fitness = 4.974824679536038, Evaluations = 1064
+Generation 134: Best Solution = [-0.99591909 -1.98732902], Best Fitness = 4.976293920831054, Evaluations = 1072
+Generation 135: Best Solution = [-0.99542661 -1.99058284], Best Fitness = 4.974922724442282, Evaluations = 1080
+Generation 136: Best Solution = [-0.99555768 -1.98955804], Best Fitness = 4.974886246035126, Evaluations = 1088
+Generation 137: Best Solution = [-0.99492691 -1.99012374], Best Fitness = 4.974799305101143, Evaluations = 1096
+Generation 138: Best Solution = [-0.99552294 -1.9912999 ], Best Fitness = 4.975234723068699, Evaluations = 1104
+Generation 139: Best Solution = [-0.99641016 -1.98963707], Best Fitness = 4.975223059494869, Evaluations = 1112
+Generation 140: Best Solution = [-0.99299009 -1.98853157], Best Fitness = 4.975935912363584, Evaluations = 1120
+Generation 141: Best Solution = [-0.99535249 -1.99299796], Best Fitness = 4.976706972667147, Evaluations = 1128
+Generation 142: Best Solution = [-0.99637204 -1.98642733], Best Fitness = 4.977589779442091, Evaluations = 1136
+Generation 143: Best Solution = [-0.99445976 -1.98810511], Best Fitness = 4.975486026839526, Evaluations = 1144
+Generation 144: Best Solution = [-0.99650048 -1.98875831], Best Fitness = 4.975525290450033, Evaluations = 1152
+Generation 145: Best Solution = [-0.99448657 -1.98912436], Best Fitness = 4.974957327208394, Evaluations = 1160
+Generation 146: Best Solution = [-0.99432133 -1.98993436], Best Fitness = 4.974870879440051, Evaluations = 1168
+Generation 147: Best Solution = [-0.99461931 -1.98709246], Best Fitness = 4.976386737258705, Evaluations = 1176
+Generation 148: Best Solution = [-0.99472137 -1.98893442], Best Fitness = 4.97499069368323, Evaluations = 1184
+Generation 149: Best Solution = [-0.99452737 -1.98920501], Best Fitness = 4.9749261492360475, Evaluations = 1192
+Generation 150: Best Solution = [-0.99721517 -1.99014608], Best Fitness = 4.975810902477345, Evaluations = 1200
+Generation 151: Best Solution = [-0.99683533 -1.98969891], Best Fitness = 4.975497722552678, Evaluations = 1208
+Generation 152: Best Solution = [-0.99692925 -1.99091466], Best Fitness = 4.975759358008329, Evaluations = 1216
+Generation 153: Best Solution = [-0.99560595 -1.99242944], Best Fitness = 4.976128290904883, Evaluations = 1224
+Generation 154: Best Solution = [-0.99767117 -1.98947028], Best Fitness = 4.976288146974957, Evaluations = 1232
+Generation 155: Best Solution = [-0.99402639 -1.98926091], Best Fitness = 4.975046557295624, Evaluations = 1240
+Generation 156: Best Solution = [-0.99350126 -1.99128601], Best Fitness = 4.97558510485276, Evaluations = 1248
+Generation 157: Best Solution = [-0.99505622 -1.99163453], Best Fitness = 4.975379582078869, Evaluations = 1256
+Generation 158: Best Solution = [-0.99282521 -1.99069582], Best Fitness = 4.975814221046527, Evaluations = 1264
+Generation 159: Best Solution = [-0.99536906 -1.9887384 ], Best Fitness = 4.975096423913985, Evaluations = 1272
+Generation 160: Best Solution = [-0.99575504 -1.99038936], Best Fitness = 4.9749610999756335, Evaluations = 1280
+Generation 161: Best Solution = [-0.99415938 -1.98873669], Best Fitness = 4.975190480167452, Evaluations = 1288
+Generation 162: Best Solution = [-0.99525346 -1.99009905], Best Fitness = 4.974814393351158, Evaluations = 1296
+Generation 163: Best Solution = [-0.9947172 -1.9888592], Best Fitness = 4.975021327956632, Evaluations = 1304
+Generation 164: Best Solution = [-0.99418103 -1.99032043], Best Fitness = 4.9749431362444145, Evaluations = 1312
+Generation 165: Best Solution = [-0.99563817 -1.9888889 ], Best Fitness = 4.975089128962342, Evaluations = 1320
+Generation 166: Best Solution = [-0.99698592 -1.99061791], Best Fitness = 4.975703911934394, Evaluations = 1328
+Generation 167: Best Solution = [-0.99537886 -1.98942656], Best Fitness = 4.974871964373099, Evaluations = 1336
+Generation 168: Best Solution = [-0.99328095 -1.9904801 ], Best Fitness = 4.975412156013249, Evaluations = 1344
+Generation 169: Best Solution = [-0.99482144 -1.99010093], Best Fitness = 4.974801030028491, Evaluations = 1352
+Generation 170: Best Solution = [-0.99487001 -1.98887147], Best Fitness = 4.975006240229455, Evaluations = 1360
+Generation 171: Best Solution = [-0.99482338 -1.9908292 ], Best Fitness = 4.974960375781448, Evaluations = 1368
+Generation 172: Best Solution = [-0.99506897 -1.98869098], Best Fitness = 4.975087915066908, Evaluations = 1376
+Generation 173: Best Solution = [-0.9949989  -1.99054808], Best Fitness = 4.974870624555795, Evaluations = 1384
+Generation 174: Best Solution = [-0.99423856 -1.99093192], Best Fitness = 4.9750989552705285, Evaluations = 1392
+Generation 175: Best Solution = [-0.99144188 -1.98936313], Best Fitness = 4.977301680100224, Evaluations = 1400
+Generation 176: Best Solution = [-0.99561836 -1.98934854], Best Fitness = 4.97493946167674, Evaluations = 1408
+Generation 177: Best Solution = [-0.99453614 -1.99037792], Best Fitness = 4.974868583411517, Evaluations = 1416
+Generation 178: Best Solution = [-0.99604321 -1.98848528], Best Fitness = 4.975426594723068, Evaluations = 1424
+Generation 179: Best Solution = [-0.9963085  -1.99069863], Best Fitness = 4.975274052816117, Evaluations = 1432
+Generation 180: Best Solution = [-0.99489484 -1.98891838], Best Fitness = 4.974986597384625, Evaluations = 1440
+Generation 181: Best Solution = [-0.99223629 -1.99078166], Best Fitness = 4.976409216646145, Evaluations = 1448
+Generation 182: Best Solution = [-0.99245899 -1.99070088], Best Fitness = 4.9761521617287965, Evaluations = 1456
+Generation 183: Best Solution = [-0.99390813 -1.9887478 ], Best Fitness = 4.9752774839129685, Evaluations = 1464
+Generation 184: Best Solution = [-0.99457011 -1.98998973], Best Fitness = 4.974821369390334, Evaluations = 1472
+Generation 185: Best Solution = [-0.99610437 -1.98877748], Best Fitness = 4.975305479361062, Evaluations = 1480
+Generation 186: Best Solution = [-0.99661368 -1.98993965], Best Fitness = 4.975333608640266, Evaluations = 1488
+Generation 187: Best Solution = [-0.99600614 -1.99275761], Best Fitness = 4.976611409879302, Evaluations = 1496
+Generation 188: Best Solution = [-0.9959118  -1.98883441], Best Fitness = 4.975200388068934, Evaluations = 1504
+Generation 189: Best Solution = [-0.99498124 -1.99014824], Best Fitness = 4.974801377366635, Evaluations = 1512
+Generation 190: Best Solution = [-0.99509001 -1.99054951], Best Fitness = 4.974874087979373, Evaluations = 1520
+Generation 191: Best Solution = [-0.99382383 -1.9902172 ], Best Fitness = 4.975064003455328, Evaluations = 1528
+Generation 192: Best Solution = [-0.99326192 -1.98978188], Best Fitness = 4.9753643986486935, Evaluations = 1536
+Generation 193: Best Solution = [-0.9956177  -1.99205395], Best Fitness = 4.975784826798106, Evaluations = 1544
+Generation 194: Best Solution = [-0.9954615  -1.99168582], Best Fitness = 4.975463344297417, Evaluations = 1552
+Generation 195: Best Solution = [-0.99678425 -1.99051862], Best Fitness = 4.975524012266115, Evaluations = 1560
+Generation 196: Best Solution = [-0.99596208 -1.99129322], Best Fitness = 4.975367591037207, Evaluations = 1568
+Generation 197: Best Solution = [-0.99465644 -1.99010107], Best Fitness = 4.9748154163908875, Evaluations = 1576
+Generation 198: Best Solution = [-0.99587579 -1.99058273], Best Fitness = 4.9750460739172, Evaluations = 1584
+Generation 199: Best Solution = [-0.99528123 -1.98914068], Best Fitness = 4.974928737502477, Evaluations = 1592
+Generation 200: Best Solution = [-0.99543802 -1.99114588], Best Fitness = 4.975137189631784, Evaluations = 1600
+Generation 201: Best Solution = [-0.99443058 -1.99017927], Best Fitness = 4.97485965726743, Evaluations = 1608
+Generation 202: Best Solution = [-0.99310266 -1.98874509], Best Fitness = 4.9757428789993625, Evaluations = 1616
+Generation 203: Best Solution = [-0.99668712 -1.99158316], Best Fitness = 4.975935659451622, Evaluations = 1624
+Generation 204: Best Solution = [-0.9947     -1.99238364], Best Fitness = 4.976013206996196, Evaluations = 1632
+Generation 205: Best Solution = [-0.99413262 -1.98830743], Best Fitness = 4.975435339945619, Evaluations = 1640
+Generation 206: Best Solution = [-0.99349846 -1.98933256], Best Fitness = 4.975279510240863, Evaluations = 1648
+Generation 207: Best Solution = [-0.99405024 -1.98935537], Best Fitness = 4.975015258359379, Evaluations = 1656
+Generation 208: Best Solution = [-0.99516142 -1.98887485], Best Fitness = 4.975011446562226, Evaluations = 1664
+Generation 209: Best Solution = [-0.99624291 -1.98967554], Best Fitness = 4.9751284237546205, Evaluations = 1672
+Generation 210: Best Solution = [-0.99628731 -1.99132196], Best Fitness = 4.975533890928478, Evaluations = 1680
+Generation 211: Best Solution = [-0.99487679 -1.98869554], Best Fitness = 4.975084629508089, Evaluations = 1688
+Generation 212: Best Solution = [-0.99486817 -1.98942213], Best Fitness = 4.974839426295835, Evaluations = 1696
+Generation 213: Best Solution = [-0.99623163 -1.9901153 ], Best Fitness = 4.975119774927817, Evaluations = 1704
+Generation 214: Best Solution = [-0.995469   -1.98844835], Best Fitness = 4.975266111873719, Evaluations = 1712
+Generation 215: Best Solution = [-0.99555169 -1.98850997], Best Fitness = 4.9752492428397765, Evaluations = 1720
+Generation 216: Best Solution = [-0.99516025 -1.98911236], Best Fitness = 4.974924971006605, Evaluations = 1728
+Generation 217: Best Solution = [-0.99299435 -1.98896423], Best Fitness = 4.975733155050346, Evaluations = 1736
+Generation 218: Best Solution = [-0.99300479 -1.99130206], Best Fitness = 4.975929646035416, Evaluations = 1744
+Generation 219: Best Solution = [-0.99315599 -1.99092158], Best Fitness = 4.975636266320551, Evaluations = 1752
+Generation 220: Best Solution = [-0.99583844 -1.98782873], Best Fitness = 4.975802994822359, Evaluations = 1760
+Generation 221: Best Solution = [-0.9975182  -1.99272182], Best Fitness = 4.97765300456633, Evaluations = 1768
+Generation 222: Best Solution = [-0.99568534 -1.98868835], Best Fitness = 4.97519149786398, Evaluations = 1776
+Generation 223: Best Solution = [-0.99233801 -1.98933679], Best Fitness = 4.976217351952467, Evaluations = 1784
+Generation 224: Best Solution = [-0.99456618 -1.99110922], Best Fitness = 4.975104517700508, Evaluations = 1792
+Generation 225: Best Solution = [-0.99440166 -1.9874338 ], Best Fitness = 4.976067553366741, Evaluations = 1800
+Generation 226: Best Solution = [-0.99383905 -1.99027337], Best Fitness = 4.975064609225493, Evaluations = 1808
+Generation 227: Best Solution = [-0.99343465 -1.98852197], Best Fitness = 4.975633356477637, Evaluations = 1816
+Generation 228: Best Solution = [-0.99506813 -1.98894157], Best Fitness = 4.974979149599019, Evaluations = 1824
+Generation 229: Best Solution = [-0.99452688 -1.9883363 ], Best Fitness = 4.975318841562286, Evaluations = 1832
+Generation 230: Best Solution = [-0.99467544 -1.99140029], Best Fitness = 4.975244656454704, Evaluations = 1840
+Generation 231: Best Solution = [-0.99632622 -1.99007643], Best Fitness = 4.975166478626932, Evaluations = 1848
+Generation 232: Best Solution = [-0.99644453 -1.9913954 ], Best Fitness = 4.975663721831284, Evaluations = 1856
+Generation 233: Best Solution = [-0.99579769 -1.98916532], Best Fitness = 4.975040302776531, Evaluations = 1864
+Generation 234: Best Solution = [-0.99572773 -1.98936339], Best Fitness = 4.974967182445642, Evaluations = 1872
+Generation 235: Best Solution = [-0.99686433 -1.9888201 ], Best Fitness = 4.975746591312808, Evaluations = 1880
+Generation 236: Best Solution = [-0.9935704  -1.99051924], Best Fitness = 4.975245319508817, Evaluations = 1888
+Generation 237: Best Solution = [-0.99427979 -1.9886162 ], Best Fitness = 4.975214137439307, Evaluations = 1896
+Generation 238: Best Solution = [-0.99771597 -1.99262237], Best Fitness = 4.977752814362548, Evaluations = 1904
+Generation 239: Best Solution = [-0.99486612 -1.98757951], Best Fitness = 4.975869002810979, Evaluations = 1912
+Generation 240: Best Solution = [-0.9968316  -1.99004026], Best Fitness = 4.975489183047658, Evaluations = 1920
+Generation 241: Best Solution = [-0.99339681 -1.99004237], Best Fitness = 4.97527724465523, Evaluations = 1928
+Generation 242: Best Solution = [-0.99467709 -1.98867394], Best Fitness = 4.9751095156583585, Evaluations = 1936
+Generation 243: Best Solution = [-0.99806039 -1.9895305 ], Best Fitness = 4.9767271781898685, Evaluations = 1944
+Generation 244: Best Solution = [-0.99649042 -1.99243602], Best Fitness = 4.9765170816477635, Evaluations = 1952
+Generation 245: Best Solution = [-0.99407931 -1.99047408], Best Fitness = 4.975006068484781, Evaluations = 1960
+Generation 246: Best Solution = [-0.99440472 -1.98990523], Best Fitness = 4.974851097302475, Evaluations = 1968
+Generation 247: Best Solution = [-0.9972956  -1.98929513], Best Fitness = 4.975948743392351, Evaluations = 1976
+Generation 248: Best Solution = [-0.99447612 -1.98906231], Best Fitness = 4.974979423728193, Evaluations = 1984
+Generation 249: Best Solution = [-0.99427978 -1.99138824], Best Fitness = 4.9753130605282205, Evaluations = 1992
+Generation 250: Best Solution = [-0.99460393 -1.98891295], Best Fitness = 4.975012881531319, Evaluations = 2000
