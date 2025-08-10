@@ -1,0 +1,873 @@
+Detailed Attention Analysis for encoder
+==================================================
+
+
+Layer 0
+==============================
+
+Head 0
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 0.4722
+[SOS]      -> typhoon   : 0.5247
+The        -> train     : 0.5647
+The        -> account   : 0.1690
+The        -> of        : 0.2293
+train      -> train     : 1.0989
+was        -> delayed   : 0.4524
+was        -> hour      : 0.3735
+delayed    -> delayed   : 1.0461
+for        -> delayed   : 0.5265
+for        -> for       : 0.4731
+one        -> one       : 0.5352
+one        -> hour      : 0.3714
+hour       -> hour      : 0.9694
+on         -> on        : 0.3929
+on         -> account   : 0.2517
+account    -> account   : 1.1046
+of         -> account   : 0.8344
+of         -> of        : 0.1886
+the        -> account   : 0.1329
+the        -> of        : 0.5538
+the        -> typhoon   : 0.4128
+typhoon    -> typhoon   : 1.1009
+[EOS]      -> typhoon   : 1.0679
+
+--------------------------------------------------
+
+Head 1
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> The       : 1.1034
+The        -> [SOS]     : 0.2418
+The        -> The       : 0.5133
+train      -> The       : 0.9545
+was        -> delayed   : 0.7359
+delayed    -> delayed   : 1.0915
+for        -> delayed   : 1.0401
+one        -> delayed   : 0.5355
+one        -> hour      : 0.4667
+hour       -> hour      : 1.0784
+on         -> account   : 0.6747
+on         -> the       : 0.1226
+account    -> account   : 1.1076
+of         -> account   : 0.8871
+the        -> account   : 0.1337
+the        -> typhoon   : 0.9556
+typhoon    -> typhoon   : 1.0987
+[EOS]      -> the       : 0.9844
+[EOS]      -> typhoon   : 0.1197
+
+--------------------------------------------------
+
+Head 2
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 1.0765
+The        -> train     : 0.2640
+The        -> was       : 0.3677
+The        -> delayed   : 0.1862
+train      -> train     : 0.8897
+was        -> [SOS]     : 0.1010
+was        -> The       : 0.2595
+was        -> was       : 0.1702
+was        -> [EOS]     : 0.4817
+delayed    -> delayed   : 0.9456
+for        -> delayed   : 0.2290
+for        -> typhoon   : 0.6492
+one        -> hour      : 1.0744
+hour       -> hour      : 1.0945
+on         -> hour      : 0.2988
+on         -> typhoon   : 0.6332
+account    -> account   : 0.9877
+of         -> delayed   : 0.1733
+of         -> typhoon   : 0.6273
+the        -> typhoon   : 0.9997
+typhoon    -> typhoon   : 1.1050
+[EOS]      -> typhoon   : 1.1076
+
+--------------------------------------------------
+
+Head 3
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> account   : 0.1919
+[SOS]      -> typhoon   : 0.9111
+The        -> account   : 0.7066
+The        -> typhoon   : 0.1828
+train      -> was       : 0.1411
+train      -> delayed   : 0.1285
+train      -> account   : 0.4320
+train      -> typhoon   : 0.2503
+was        -> was       : 0.1363
+was        -> delayed   : 0.1179
+delayed    -> The       : 0.1305
+delayed    -> was       : 0.1587
+delayed    -> delayed   : 0.1803
+delayed    -> hour      : 0.2923
+for        -> was       : 0.1296
+one        -> train     : 0.3614
+one        -> hour      : 0.4685
+hour       -> one       : 0.1127
+hour       -> hour      : 0.1626
+hour       -> on        : 0.4039
+hour       -> account   : 0.2421
+on         -> hour      : 0.2358
+on         -> account   : 0.6007
+account    -> account   : 0.1962
+of         -> was       : 0.1686
+of         -> delayed   : 0.1524
+of         -> typhoon   : 0.3565
+the        -> delayed   : 0.1208
+the        -> typhoon   : 0.4375
+the        -> [EOS]     : 0.2297
+typhoon    -> the       : 0.6947
+typhoon    -> typhoon   : 0.2099
+typhoon    -> [EOS]     : 0.1628
+[EOS]      -> the       : 0.1276
+[EOS]      -> typhoon   : 0.5482
+[EOS]      -> [EOS]     : 0.4197
+
+--------------------------------------------------
+
+Head 4
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 1.1106
+The        -> train     : 1.0857
+train      -> train     : 1.1079
+was        -> train     : 0.2117
+was        -> delayed   : 0.5656
+was        -> the       : 0.1279
+delayed    -> delayed   : 1.0915
+for        -> delayed   : 0.4898
+for        -> hour      : 0.5600
+one        -> one       : 0.1281
+one        -> hour      : 0.9742
+hour       -> hour      : 1.1098
+on         -> hour      : 0.2218
+on         -> on        : 0.1441
+on         -> account   : 0.7180
+account    -> account   : 1.1110
+of         -> account   : 0.4612
+of         -> the       : 0.4260
+typhoon    -> typhoon   : 1.1111
+
+--------------------------------------------------
+
+Head 5
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 1.1073
+The        -> train     : 1.1052
+train      -> train     : 1.0859
+was        -> delayed   : 1.0951
+delayed    -> delayed   : 1.0612
+for        -> delayed   : 0.3721
+for        -> one       : 0.1802
+one        -> one       : 0.7891
+hour       -> hour      : 1.0547
+on         -> account   : 1.0993
+account    -> account   : 1.1108
+of         -> account   : 0.1848
+of         -> the       : 0.1313
+the        -> typhoon   : 1.1058
+typhoon    -> typhoon   : 1.1107
+[EOS]      -> typhoon   : 1.1089
+
+--------------------------------------------------
+
+Head 6
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 1.0150
+train      -> train     : 1.0894
+was        -> delayed   : 1.0425
+delayed    -> delayed   : 1.1030
+for        -> delayed   : 0.3851
+for        -> for       : 0.1957
+for        -> one       : 0.4400
+one        -> one       : 0.7600
+one        -> hour      : 0.2792
+hour       -> one       : 0.1767
+hour       -> hour      : 0.8413
+on         -> on        : 0.4346
+on         -> account   : 0.6340
+account    -> account   : 1.0973
+of         -> delayed   : 0.3973
+of         -> account   : 0.5216
+the        -> typhoon   : 0.5790
+typhoon    -> typhoon   : 1.1038
+[EOS]      -> the       : 0.1869
+[EOS]      -> typhoon   : 0.9015
+
+--------------------------------------------------
+
+Head 7
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> train     : 1.0782
+The        -> train     : 0.7907
+The        -> hour      : 0.1357
+train      -> train     : 1.1104
+was        -> delayed   : 1.1007
+delayed    -> delayed   : 1.1020
+for        -> delayed   : 0.2348
+for        -> one       : 0.4487
+one        -> one       : 0.7932
+one        -> hour      : 0.2848
+hour       -> hour      : 1.0834
+on         -> account   : 0.9859
+the        -> typhoon   : 1.0846
+[EOS]      -> typhoon   : 1.0963
+
+--------------------------------------------------
+
+Layer 1
+==============================
+
+Head 0
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> The       : 0.2054
+[SOS]      -> train     : 0.3551
+The        -> [SOS]     : 0.4003
+The        -> The       : 0.1519
+The        -> train     : 0.5437
+train      -> The       : 0.1499
+train      -> train     : 0.3841
+was        -> delayed   : 0.6581
+was        -> for       : 0.4429
+delayed    -> for       : 0.9635
+for        -> one       : 0.2235
+for        -> hour      : 0.8614
+one        -> hour      : 1.0901
+hour       -> hour      : 1.1006
+on         -> on        : 0.2055
+on         -> account   : 0.8136
+account    -> account   : 0.3943
+account    -> of        : 0.6329
+of         -> account   : 0.1798
+of         -> the       : 0.3334
+of         -> [EOS]     : 0.5232
+the        -> [EOS]     : 1.0609
+typhoon    -> typhoon   : 0.1059
+typhoon    -> [EOS]     : 0.9800
+[EOS]      -> typhoon   : 0.1038
+[EOS]      -> [EOS]     : 0.9344
+
+--------------------------------------------------
+
+Head 1
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.2580
+[SOS]      -> The       : 0.4211
+[SOS]      -> train     : 0.3278
+The        -> [SOS]     : 0.1748
+The        -> train     : 0.1332
+The        -> was       : 0.1708
+The        -> delayed   : 0.1627
+The        -> for       : 0.1781
+train      -> [SOS]     : 0.1321
+was        -> delayed   : 1.0348
+delayed    -> was       : 0.1634
+delayed    -> delayed   : 0.8070
+delayed    -> for       : 0.1403
+for        -> was       : 0.1461
+for        -> delayed   : 0.8465
+for        -> for       : 0.1180
+one        -> hour      : 0.7645
+hour       -> hour      : 0.9155
+on         -> on        : 0.1207
+on         -> account   : 0.8789
+account    -> account   : 0.9577
+of         -> the       : 0.8921
+the        -> the       : 0.5251
+the        -> typhoon   : 0.2800
+the        -> [EOS]     : 0.2738
+typhoon    -> the       : 0.5257
+typhoon    -> typhoon   : 0.3954
+typhoon    -> [EOS]     : 0.1787
+[EOS]      -> the       : 0.6999
+[EOS]      -> typhoon   : 0.1888
+[EOS]      -> [EOS]     : 0.2101
+
+--------------------------------------------------
+
+Head 2
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.2403
+[SOS]      -> The       : 0.6753
+[SOS]      -> train     : 0.1187
+The        -> The       : 0.5569
+The        -> train     : 0.2506
+train      -> [SOS]     : 0.1717
+train      -> The       : 0.8090
+was        -> [SOS]     : 0.2147
+was        -> The       : 0.5572
+delayed    -> was       : 0.2012
+delayed    -> delayed   : 0.6877
+for        -> was       : 0.3273
+for        -> delayed   : 0.1492
+for        -> hour      : 0.1118
+for        -> of        : 0.1148
+one        -> one       : 0.3335
+one        -> hour      : 0.6636
+hour       -> one       : 0.2135
+hour       -> hour      : 0.8726
+on         -> account   : 1.0697
+account    -> account   : 1.0846
+of         -> account   : 0.6520
+of         -> typhoon   : 0.3855
+the        -> the       : 0.2411
+the        -> typhoon   : 0.3615
+the        -> [EOS]     : 0.4819
+typhoon    -> the       : 0.5712
+typhoon    -> [EOS]     : 0.4351
+[EOS]      -> the       : 0.3118
+[EOS]      -> [EOS]     : 0.5849
+
+--------------------------------------------------
+
+Head 3
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.2038
+[SOS]      -> train     : 0.8208
+The        -> [SOS]     : 0.1478
+The        -> The       : 0.1314
+The        -> train     : 0.7757
+train      -> [SOS]     : 0.3002
+train      -> train     : 0.7710
+was        -> delayed   : 1.0515
+delayed    -> was       : 0.1466
+delayed    -> delayed   : 0.8384
+delayed    -> for       : 0.1210
+for        -> was       : 0.1072
+for        -> delayed   : 0.3371
+for        -> for       : 0.5388
+one        -> hour      : 1.1008
+hour       -> hour      : 1.1030
+on         -> on        : 0.6940
+on         -> account   : 0.3343
+account    -> on        : 0.1861
+account    -> account   : 0.6487
+account    -> of        : 0.2009
+of         -> on        : 0.4045
+of         -> account   : 0.1884
+of         -> of        : 0.4441
+the        -> the       : 0.1368
+the        -> typhoon   : 0.4631
+the        -> [EOS]     : 0.4964
+typhoon    -> the       : 0.1702
+typhoon    -> typhoon   : 0.5321
+typhoon    -> [EOS]     : 0.4077
+[EOS]      -> the       : 0.2808
+[EOS]      -> [EOS]     : 0.2932
+
+--------------------------------------------------
+
+Head 4
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> The       : 0.7291
+[SOS]      -> train     : 0.1989
+The        -> [SOS]     : 0.1972
+The        -> The       : 0.4273
+The        -> train     : 0.4604
+train      -> [SOS]     : 0.1246
+train      -> The       : 0.7314
+was        -> was       : 0.6018
+was        -> delayed   : 0.3571
+delayed    -> was       : 0.7104
+delayed    -> delayed   : 0.3469
+for        -> for       : 0.2844
+for        -> one       : 0.3596
+for        -> hour      : 0.2414
+one        -> for       : 0.1387
+one        -> one       : 0.5454
+one        -> hour      : 0.2267
+one        -> on        : 0.1739
+hour       -> one       : 0.2983
+hour       -> hour      : 0.6391
+hour       -> on        : 0.1052
+on         -> of        : 1.0190
+account    -> of        : 0.7589
+of         -> of        : 1.0682
+the        -> the       : 0.1035
+the        -> [EOS]     : 0.3795
+typhoon    -> typhoon   : 0.8727
+[EOS]      -> the       : 0.1334
+[EOS]      -> typhoon   : 0.7719
+
+--------------------------------------------------
+
+Head 5
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.2649
+[SOS]      -> was       : 0.4938
+The        -> was       : 0.4349
+The        -> for       : 0.3118
+train      -> [SOS]     : 0.6199
+train      -> The       : 0.1029
+was        -> was       : 0.3635
+was        -> for       : 0.6252
+delayed    -> was       : 1.0392
+for        -> was       : 0.2342
+for        -> delayed   : 0.5734
+for        -> for       : 0.2661
+one        -> one       : 0.1033
+one        -> hour      : 0.8443
+hour       -> one       : 0.1228
+hour       -> hour      : 0.5831
+hour       -> of        : 0.1150
+on         -> account   : 0.1474
+on         -> of        : 0.6594
+account    -> account   : 0.2332
+of         -> of        : 1.0224
+the        -> typhoon   : 0.1592
+the        -> [EOS]     : 0.8124
+typhoon    -> the       : 0.2001
+typhoon    -> typhoon   : 0.5309
+typhoon    -> [EOS]     : 0.3273
+[EOS]      -> the       : 0.1733
+[EOS]      -> typhoon   : 0.2277
+[EOS]      -> [EOS]     : 0.6787
+
+--------------------------------------------------
+
+Head 6
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.1897
+[SOS]      -> The       : 0.1002
+The        -> train     : 0.8153
+train      -> [SOS]     : 0.2780
+train      -> train     : 0.5995
+was        -> delayed   : 1.0465
+delayed    -> delayed   : 0.9413
+for        -> was       : 0.1018
+for        -> delayed   : 0.4390
+for        -> for       : 0.4256
+one        -> one       : 0.3250
+one        -> hour      : 0.4131
+hour       -> on        : 0.9471
+on         -> on        : 0.1018
+on         -> account   : 0.6600
+on         -> of        : 0.2566
+account    -> account   : 0.7905
+account    -> of        : 0.1991
+of         -> account   : 0.4711
+of         -> the       : 0.5265
+the        -> the       : 0.2383
+the        -> [EOS]     : 0.1336
+typhoon    -> typhoon   : 0.8259
+typhoon    -> [EOS]     : 0.1467
+[EOS]      -> the       : 0.3268
+[EOS]      -> typhoon   : 0.2573
+[EOS]      -> [EOS]     : 0.1906
+
+--------------------------------------------------
+
+Head 7
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.3479
+[SOS]      -> The       : 0.4178
+[SOS]      -> train     : 0.3374
+The        -> [SOS]     : 0.3740
+The        -> The       : 0.3351
+The        -> train     : 0.3822
+train      -> [SOS]     : 0.3454
+train      -> The       : 0.5241
+train      -> train     : 0.1983
+was        -> [SOS]     : 0.1248
+was        -> The       : 0.6101
+was        -> was       : 0.1412
+delayed    -> was       : 0.9395
+delayed    -> delayed   : 0.1510
+for        -> was       : 0.3261
+for        -> delayed   : 0.7738
+one        -> for       : 1.0408
+hour       -> one       : 1.0464
+on         -> one       : 0.3685
+on         -> hour      : 0.6962
+account    -> on        : 0.9055
+account    -> account   : 0.1472
+of         -> account   : 1.0508
+the        -> of        : 0.9995
+typhoon    -> of        : 0.7861
+[EOS]      -> of        : 0.2619
+[EOS]      -> the       : 0.8098
+
+--------------------------------------------------
+
+Layer 2
+==============================
+
+Head 0
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> The       : 0.4668
+[SOS]      -> train     : 0.3067
+The        -> [SOS]     : 0.1771
+The        -> The       : 0.3246
+The        -> train     : 0.1983
+The        -> account   : 0.2523
+train      -> [SOS]     : 0.1552
+train      -> The       : 0.7094
+train      -> train     : 0.1367
+was        -> The       : 0.1254
+was        -> delayed   : 0.6812
+delayed    -> was       : 0.6494
+delayed    -> delayed   : 0.1092
+delayed    -> the       : 0.1259
+for        -> delayed   : 0.9275
+for        -> for       : 0.1305
+one        -> for       : 0.9922
+hour       -> one       : 1.0408
+on         -> one       : 0.9042
+on         -> hour      : 0.2029
+account    -> hour      : 0.1691
+account    -> on        : 0.7109
+account    -> account   : 0.1672
+of         -> on        : 0.2716
+of         -> account   : 0.7988
+the        -> of        : 0.1029
+the        -> the       : 0.4355
+the        -> [EOS]     : 0.3996
+typhoon    -> of        : 0.1302
+typhoon    -> [EOS]     : 0.3427
+[EOS]      -> the       : 0.9150
+[EOS]      -> [EOS]     : 0.1056
+
+--------------------------------------------------
+
+Head 1
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.1694
+[SOS]      -> train     : 0.3867
+[SOS]      -> one       : 0.1358
+[SOS]      -> [EOS]     : 0.1599
+The        -> [SOS]     : 0.1345
+train      -> one       : 0.2207
+train      -> the       : 0.1176
+train      -> [EOS]     : 0.2200
+was        -> The       : 0.1371
+was        -> train     : 0.1865
+was        -> delayed   : 0.4700
+was        -> one       : 0.1380
+delayed    -> delayed   : 0.6761
+delayed    -> one       : 0.2090
+for        -> one       : 0.1408
+for        -> account   : 0.5571
+for        -> of        : 0.3225
+one        -> [SOS]     : 0.1127
+one        -> train     : 0.1614
+one        -> on        : 0.2607
+one        -> account   : 0.2736
+hour       -> account   : 0.6870
+on         -> account   : 0.8596
+on         -> of        : 0.2418
+account    -> account   : 0.7566
+account    -> of        : 0.2550
+of         -> account   : 0.1546
+the        -> train     : 0.1380
+the        -> of        : 0.1763
+the        -> the       : 0.1455
+the        -> typhoon   : 0.2669
+the        -> [EOS]     : 0.2305
+typhoon    -> the       : 0.1058
+typhoon    -> typhoon   : 0.6031
+typhoon    -> [EOS]     : 0.2163
+[EOS]      -> the       : 0.1415
+[EOS]      -> typhoon   : 0.2262
+[EOS]      -> [EOS]     : 0.5489
+
+--------------------------------------------------
+
+Head 2
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> was       : 0.5676
+[SOS]      -> delayed   : 0.2343
+The        -> was       : 0.5629
+The        -> delayed   : 0.1943
+The        -> for       : 0.1384
+train      -> [SOS]     : 0.2218
+train      -> The       : 0.2214
+train      -> train     : 0.1748
+train      -> was       : 0.2821
+was        -> was       : 0.7971
+was        -> delayed   : 0.1137
+delayed    -> [SOS]     : 0.1020
+delayed    -> train     : 0.1039
+delayed    -> was       : 0.7223
+delayed    -> for       : 0.1176
+for        -> for       : 0.5121
+for        -> one       : 0.4033
+one        -> one       : 0.4900
+one        -> hour      : 0.5693
+hour       -> one       : 0.5888
+hour       -> hour      : 0.4377
+on         -> one       : 0.3537
+on         -> hour      : 0.2943
+on         -> account   : 0.2252
+account    -> one       : 0.1623
+account    -> account   : 0.1693
+account    -> of        : 0.1365
+of         -> account   : 0.5528
+of         -> typhoon   : 0.4390
+the        -> account   : 0.1382
+the        -> the       : 0.3200
+the        -> typhoon   : 0.6339
+typhoon    -> account   : 0.2414
+typhoon    -> the       : 0.5391
+typhoon    -> typhoon   : 0.2931
+[EOS]      -> the       : 0.8521
+[EOS]      -> typhoon   : 0.2045
+
+--------------------------------------------------
+
+Head 3
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> delayed   : 0.8076
+The        -> delayed   : 0.9629
+train      -> train     : 0.2040
+train      -> delayed   : 0.7233
+was        -> delayed   : 1.1104
+delayed    -> delayed   : 1.0438
+for        -> delayed   : 0.1829
+for        -> one       : 0.8982
+one        -> for       : 0.1276
+one        -> one       : 0.9064
+hour       -> one       : 1.0755
+on         -> account   : 0.1187
+on         -> of        : 0.8541
+account    -> account   : 0.3618
+account    -> of        : 0.2427
+account    -> the       : 0.3101
+account    -> [EOS]     : 0.1788
+of         -> of        : 0.9358
+the        -> the       : 0.5117
+the        -> typhoon   : 0.2945
+the        -> [EOS]     : 0.2134
+typhoon    -> the       : 0.3602
+typhoon    -> typhoon   : 0.4493
+[EOS]      -> the       : 0.5207
+[EOS]      -> typhoon   : 0.1335
+[EOS]      -> [EOS]     : 0.3625
+
+--------------------------------------------------
+
+Head 4
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.1098
+[SOS]      -> The       : 0.2066
+[SOS]      -> on        : 0.1012
+[SOS]      -> of        : 0.1624
+[SOS]      -> [EOS]     : 0.1128
+The        -> was       : 0.2994
+The        -> delayed   : 0.3498
+train      -> [EOS]     : 0.1593
+was        -> delayed   : 0.4937
+was        -> for       : 0.3087
+was        -> hour      : 0.1147
+delayed    -> [SOS]     : 0.1509
+delayed    -> train     : 0.2075
+delayed    -> was       : 0.1206
+delayed    -> delayed   : 0.3878
+for        -> for       : 0.2232
+for        -> one       : 0.7060
+one        -> one       : 1.0179
+on         -> the       : 0.1050
+on         -> typhoon   : 0.2254
+account    -> the       : 0.5773
+account    -> typhoon   : 0.1797
+account    -> [EOS]     : 0.2406
+of         -> the       : 0.4862
+of         -> typhoon   : 0.4082
+the        -> the       : 0.5986
+the        -> [EOS]     : 0.1982
+typhoon    -> on        : 0.1155
+typhoon    -> the       : 0.6445
+typhoon    -> typhoon   : 0.1198
+[EOS]      -> the       : 0.5796
+[EOS]      -> typhoon   : 0.2320
+
+--------------------------------------------------
+
+Head 5
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> one       : 0.1631
+[SOS]      -> on        : 0.2411
+[SOS]      -> the       : 0.2981
+The        -> one       : 0.3640
+The        -> on        : 0.2157
+train      -> [SOS]     : 0.1111
+train      -> one       : 0.1263
+train      -> the       : 0.4765
+was        -> was       : 0.5874
+was        -> for       : 0.4947
+delayed    -> was       : 1.0593
+for        -> was       : 0.5727
+for        -> delayed   : 0.4471
+one        -> delayed   : 0.2156
+one        -> one       : 0.5609
+one        -> hour      : 0.2570
+hour       -> delayed   : 0.2307
+hour       -> one       : 0.7715
+on         -> was       : 0.2121
+on         -> delayed   : 0.2228
+on         -> one       : 0.2622
+on         -> on        : 0.2323
+on         -> account   : 0.1399
+account    -> the       : 1.0214
+of         -> on        : 0.4346
+of         -> account   : 0.2691
+of         -> the       : 0.2271
+the        -> the       : 1.0245
+typhoon    -> the       : 0.9999
+[EOS]      -> the       : 0.7303
+[EOS]      -> [EOS]     : 0.3265
+
+--------------------------------------------------
+
+Head 6
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.1498
+[SOS]      -> The       : 0.3148
+[SOS]      -> was       : 0.1651
+[SOS]      -> delayed   : 0.1809
+The        -> The       : 0.4066
+The        -> train     : 0.3368
+train      -> [SOS]     : 0.1706
+train      -> The       : 0.2861
+train      -> was       : 0.1561
+train      -> delayed   : 0.2029
+train      -> for       : 0.1172
+was        -> delayed   : 0.2991
+was        -> for       : 0.7717
+delayed    -> for       : 0.7731
+delayed    -> one       : 0.3193
+for        -> one       : 0.6663
+for        -> hour      : 0.3960
+one        -> hour      : 0.3998
+one        -> on        : 0.6530
+hour       -> on        : 0.9877
+on         -> account   : 0.4922
+on         -> of        : 0.6090
+of         -> the       : 0.4684
+of         -> [EOS]     : 0.5174
+the        -> typhoon   : 0.1398
+the        -> [EOS]     : 0.8917
+typhoon    -> typhoon   : 0.2451
+typhoon    -> [EOS]     : 0.8310
+[EOS]      -> [EOS]     : 0.9511
+
+--------------------------------------------------
+
+Head 7
+--------------------
+
+Attention Matrix:
+Row Token -> Column Token: Score
+[SOS]      -> [SOS]     : 0.1099
+[SOS]      -> The       : 0.1417
+[SOS]      -> train     : 0.1117
+[SOS]      -> was       : 0.1161
+[SOS]      -> delayed   : 0.1833
+[SOS]      -> typhoon   : 0.1393
+The        -> [SOS]     : 0.1124
+The        -> The       : 0.2685
+The        -> train     : 0.1123
+The        -> was       : 0.2644
+The        -> delayed   : 0.1047
+train      -> [SOS]     : 0.1976
+train      -> The       : 0.4058
+train      -> train     : 0.1211
+was        -> [SOS]     : 0.2206
+was        -> The       : 0.5628
+was        -> train     : 0.1762
+was        -> was       : 0.1053
+delayed    -> was       : 0.2550
+delayed    -> delayed   : 0.4658
+for        -> The       : 0.1538
+for        -> delayed   : 0.5558
+for        -> for       : 0.2266
+one        -> for       : 0.2795
+one        -> one       : 0.5883
+hour       -> for       : 0.1155
+hour       -> one       : 0.7181
+hour       -> hour      : 0.2393
+on         -> [SOS]     : 0.1322
+on         -> train     : 0.1418
+on         -> one       : 0.4749
+on         -> on        : 0.1839
+account    -> account   : 0.3049
+of         -> account   : 0.2044
+the        -> account   : 0.2976
+the        -> [EOS]     : 0.5918
+typhoon    -> account   : 0.1846
+typhoon    -> typhoon   : 0.3726
+typhoon    -> [EOS]     : 0.2890
+[EOS]      -> account   : 0.1876
+[EOS]      -> the       : 0.2955
+[EOS]      -> typhoon   : 0.1394
+[EOS]      -> [EOS]     : 0.4397
+
+--------------------------------------------------
